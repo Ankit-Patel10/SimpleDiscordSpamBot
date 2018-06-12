@@ -6,3 +6,5 @@ run `pip install -r requirements.txt`
 
 Place your token and other relevant information within the python file. Then just run the script!
 
+You can start the spam by typing +raidhere in the channel you'd like.
+
