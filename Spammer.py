@@ -7,7 +7,7 @@ import time
 
 token = ("enter ur token here")
 client = discord.Client()
-howmanymessages = str(input("plz enter how many different messages you want:"))
+howmanymessages = int(input("plz enter how many different messages you want:"))
 delay = int(input("plz enter the delay"))
 list = []
 for x in range(0, howmanymessages):
