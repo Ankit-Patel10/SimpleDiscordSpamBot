@@ -5,16 +5,16 @@ import asyncio
 import os
 import time
 
-token = ("enter ur token here")
+token = ("Enter Token Here")
 client = discord.Client()
-howmanymessages = int(input("plz enter how many different messages you want:"))
-delay = int(input("plz enter the delay"))
+howmanymessages = int(input("How many different messages:"))
+delay = int(input("Delay in ms:"))
 list = []
 for x in range(0, howmanymessages):
-    raidtxt = str(input("plz enter in spam text:"))
-    list[x] = raidtxt
-spamamt = int(input("plz enter the amt of spam u want:"))
-invitelink = str(input("plz enter an invite link for server ud like to raid: "))
+    txt = str(input("Text to spam:"))
+    list[x] = txt
+spamamt = int(input("The amount of message:"))
+invitelink = str(input("Channel invite link:"))
 
 @client.event
 async def on_ready():
